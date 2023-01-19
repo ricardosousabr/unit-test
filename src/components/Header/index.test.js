@@ -2,7 +2,7 @@ import React from 'react';
 import {render, screen} from '@testing-library/react'
 import Header from './index';
 
-
+// Teste de componente
 test('use jsdom in this test file', () => {
   render(<Header />)
   const aboutAnchorNode = screen.getByText(/Header/i)
