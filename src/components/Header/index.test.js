@@ -1,4 +1,16 @@
-const soma = require('./index');
+import React from 'react';
+import {render, screen} from '@testing-library/react'
+import Header from './index';
+
+
+test('use jsdom in this test file', () => {
+  render(<Header />)
+  const aboutAnchorNode = screen.getByText(/Header/i)
+  expect(aboutAnchorNode).toBeTruthy();
+});
+
+
+const soma = require('./soma');
 
 // True, False, Null, Undefined
 test('Null', () => {
