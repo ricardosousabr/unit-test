@@ -1,9 +1,13 @@
-module.exports = {
-  testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
-  bail: 1,
-  clearMocks: true,
-  collectCoverage: true,
-  collectCoverageFrom: ['components/**/*.js', 'pages/**/*.js'],
-  coverageReporters: ['lcov', 'text'],
-  testEnvironment: "jsdom"
+/** @type {import('jest').Config} */
+const config = {
+  coverageThreshold: {
+    global: {
+      branches: 50,
+      functions: 50,
+      lines: 50,
+      statements: -10,
+    },
+  },
 };
+
+module.exports = config;
