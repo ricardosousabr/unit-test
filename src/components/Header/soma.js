@@ -4,6 +4,10 @@ function soma(a, b) {
       return 1 + 1;
   };
 
+  function functionNotTes() {
+    return 1 + 1;
+};
+
   return a + b;
 };
 
