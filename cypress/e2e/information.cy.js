@@ -6,7 +6,7 @@ describe('interaction', () => {
 
     cy.url().should('contain', 'information')
 
-    cy.get('ul > li:first').should('contain', 'Ricardo')
+    cy.get('ul > li:first').should('contain', 'Teresina')
 
     cy.get('ul > li').should('contain', '21')
 
