@@ -17,7 +17,8 @@ export default function Infomation() {
         </ul>
       </div>
       <div>
-        <Link class="link" href="/about">click</Link>
+        <Link className='link' href="/about">click</Link>
+        <Link className='link' href="/contact">click</Link>
       </div>
     </>
   )

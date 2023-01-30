@@ -2,7 +2,6 @@ describe('interaction', () => {
   it('information', () => {
     cy.visit('http://localhost:3000/information')
 
-
     cy.url().should('eq', 'http://localhost:3000/information')
 
     cy.url().should('contain', 'information')
@@ -17,8 +16,10 @@ describe('interaction', () => {
 
 describe('navigation', () => {
   it('snow to about', () => {
+    cy.visit('http://localhost:3000/information')
 
-    cy.get('div > .link').click()
+    cy.get('div > .link[href*="/about"]').click()
+
     cy.url().should('eq', 'http://localhost:3000/about')
   })
 })
