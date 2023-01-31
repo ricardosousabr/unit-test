@@ -6,6 +6,11 @@ import React from 'react';
 import {render, screen} from '@testing-library/react'
 import Header from './index';
 
+it("renders homepage unchanged", () => {
+  const { container } = render(<Header />);
+  expect(container).toMatchSnapshot();
+});
+
 // Teste de componente
 test('use jsdom in this test file', () => {
   render(<Header />)
