@@ -38,6 +38,6 @@ Tests in cypress
 
     $ yarn cypress
     
-## Status do projeto
+## Project status
 
 The project was successfully completed 🎊🎉.
