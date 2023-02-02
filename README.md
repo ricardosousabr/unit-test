@@ -1,5 +1,5 @@
 
-# Testes
+# Tests
 
 Hello, in this repository I put my project using tests, I used 3 types of tests, unitary, e2e and snapshot, I will leave below the technologies that I used and how to install🚀🚀.
 
@@ -7,42 +7,37 @@ Hello, in this repository I put my project using tests, I used 3 types of tests,
 ## 🛠️ Built with
 
 
-
     React
-
-    javaScript
 
     Jest
 
     Cypress
+    
+    GitHub Actions
 
     Husky
-
-Package manager
-
-    yarn
-
 
 
 ## Installation
 
 Type in your terminal to start installing the dependencies
 
-    yarn 
+    $ yarn 
 
 ## Run locally
 
 Tests in Jest
 
-    yarn test
+    $ yarn test
 
 Jest tests with coverage
 
-    yarn coverage
+    $ yarn coverage
 
 Tests in cypress
 
-    yarn cypress
+    $ yarn cypress
+    
 ## Status do projeto
 
-O projeto foi finalizado com sucesso 🎊🎉.
+The project was successfully completed 🎊🎉.
