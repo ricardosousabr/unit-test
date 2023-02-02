@@ -1,7 +1,7 @@
 
 # Tests
 
-Hello, in this repository I put my project using tests, I used 3 types of tests, unitary, e2e and snapshot, I will leave below the technologies that I used and how to install🚀🚀.
+Hello, in this repository I put my project using tests, I used 3 types of tests, unitary, e2e and snapshot, I will leave below the technologies that I used and how to install. 🚀🚀
 
 
 ## 🛠️ Built with
@@ -40,4 +40,4 @@ Tests in cypress
     
 ## Project status
 
-The project was successfully completed 🎊🎉.
+The project was successfully completed. 🎊🎉
