@@ -14,7 +14,7 @@ it("renders homepage unchanged", () => {
 // Teste de componente
 test('use jsdom in this test file', () => {
   render(<Header />)
-  const aboutAnchorNode = screen.getByText(/Header/i)
+  const aboutAnchorNode = screen.getByText(/Hello wolrd/i)
   expect(aboutAnchorNode).toBeTruthy();
 });
 
